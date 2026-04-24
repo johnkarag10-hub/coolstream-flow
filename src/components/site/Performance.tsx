@@ -1,4 +1,4 @@
-import datacenter from "@/assets/datacenter.jpg";
+import datacenter from "@/assets/immersion-cooling.jpg";
 
 const Performance = () => (
   <section id="performance" className="pt-24 md:pt-32 pb-0">
