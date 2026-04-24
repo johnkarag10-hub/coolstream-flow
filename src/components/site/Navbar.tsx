@@ -16,7 +16,7 @@ const Navbar = () => {
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-fluid shadow-glow">
             <Droplets className="h-4 w-4 text-primary-foreground" />
           </span>
-          <span className="tracking-tight">HydroCore</span>
+          <span className="tracking-tight">Polarfreeze</span>
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (
