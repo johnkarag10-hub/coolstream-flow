@@ -3,8 +3,6 @@ import { Droplets } from "lucide-react";
 
 const links = [
   { href: "#products", label: "Fluids" },
-  { href: "#how", label: "How it works" },
-  { href: "#performance", label: "Performance" },
   { href: "#industries", label: "Industries" },
 ];
 
