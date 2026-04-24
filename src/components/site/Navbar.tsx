@@ -4,6 +4,7 @@ import { Droplets } from "lucide-react";
 const links = [
   { href: "#products", label: "Fluids" },
   { href: "#industries", label: "Industries" },
+  { href: "#contact", label: "Contact" },
 ];
 
 const Navbar = () => {
