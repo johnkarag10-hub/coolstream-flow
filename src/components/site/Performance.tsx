@@ -1,4 +1,4 @@
-import datacenter from "@/assets/datacenter.jpg";
+import datacenter from "@/assets/immersion-cooling.jpg";
 
 const Performance = () => (
   <section id="performance" className="pt-24 md:pt-32 pb-0">
@@ -6,7 +6,7 @@ const Performance = () => (
       <div className="relative rounded-2xl overflow-hidden border border-border shadow-elegant">
         <img
           src={datacenter}
-          alt="Modern immersion-cooled data center"
+          alt="Server motherboard submerged in clear dielectric immersion cooling fluid"
           width={1600}
           height={1000}
           loading="lazy"
