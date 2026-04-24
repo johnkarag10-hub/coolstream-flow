@@ -12,7 +12,7 @@ const Footer = () => (
       </div>
       <nav className="flex gap-6 text-sm text-muted-foreground">
         <a href="#products" className="hover:text-foreground transition-smooth">Fluids</a>
-        <a href="#performance" className="hover:text-foreground transition-smooth">{"\n"}</a>
+        <a href="#performance" className="hover:text-foreground transition-smooth">Performance</a>
         <a href="#contact" className="hover:text-foreground transition-smooth">Contact</a>
       </nav>
     </div>
