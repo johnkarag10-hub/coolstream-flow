@@ -1,10 +1,10 @@
 import datacenter from "@/assets/datacenter.jpg";
 
 const stats = [
-  { v: "1.03", l: "Average PUE achieved" },
-  { v: "−45%", l: "Energy consumption" },
-  { v: "10×", l: "Rack power density" },
-  { v: "99.99%", l: "Uptime maintained" },
+  { v: "\n", l: "\n" },
+  { v: "\n", l: "\n" },
+  { v: "\n\n\n\n", l: "" },
+  { v: "\n", l: "\n" },
 ];
 
 const Performance = () => (
@@ -23,17 +23,17 @@ const Performance = () => (
       </div>
 
       <div>
-        <p className="text-sm font-medium text-primary uppercase tracking-wider mb-3">Performance</p>
+        <p className="text-sm font-medium text-primary uppercase tracking-wider mb-3">{"\n"}</p>
         <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight">
-          Numbers that <span className="text-gradient-primary">change the math</span> on cooling.
+          {"\n"}
         </h2>
         <p className="mt-5 text-lg text-muted-foreground">
-          Operators deploying HydroCore fluids see step-change improvements in energy efficiency, density, and reliability — with measurable ROI inside 18 months.
+          {"\n"}
         </p>
 
         <div className="mt-10 grid grid-cols-2 gap-6">
-          {stats.map((s) => (
-            <div key={s.l} className="rounded-xl border border-border bg-card-gradient p-6">
+          {stats.map((s, i) => (
+            <div key={i} className="rounded-xl border border-border bg-card-gradient p-6">
               <div className="font-display text-4xl md:text-5xl font-bold text-gradient-primary">{s.v}</div>
               <p className="mt-2 text-sm text-muted-foreground">{s.l}</p>
             </div>

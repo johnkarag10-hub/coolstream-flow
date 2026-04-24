@@ -17,7 +17,7 @@ const Hero = () => {
             <span className="text-gradient-primary">reimagined.</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-xl">
-            HydroCore supplies premium dielectric immersion cooling fluids to hyperscale and edge data centers worldwide — slashing energy use, silencing fans, and unlocking GPU density.
+            Polarfreeze supplies premium dielectric immersion cooling fluids to hyperscale and edge data centers worldwide — slashing energy use, silencing fans, and unlocking GPU density.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Button asChild size="lg" className="bg-fluid text-primary-foreground hover:opacity-90 shadow-elegant">
@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           <div className="mt-10 flex items-center gap-3 text-sm text-muted-foreground">
             <ShieldCheck className="h-4 w-4 text-primary" />
-            ASTM D877 certified · ISO 9001 · Trusted by Tier-III operators
+            {"\n"}
           </div>
         </div>
 
