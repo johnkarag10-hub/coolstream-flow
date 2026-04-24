@@ -1,15 +1,8 @@
 import datacenter from "@/assets/datacenter.jpg";
 
-const stats = [
-  { v: "\n", l: "\n" },
-  { v: "\n", l: "\n" },
-  { v: "\n\n\n\n", l: "" },
-  { v: "\n", l: "\n" },
-];
-
 const Performance = () => (
-  <section id="performance" className="py-24 md:py-32">
-    <div className="container grid lg:grid-cols-2 gap-12 items-center">
+  <section id="performance" className="pt-24 md:pt-32 pb-0">
+    <div className="container">
       <div className="relative rounded-2xl overflow-hidden border border-border shadow-elegant">
         <img
           src={datacenter}
@@ -20,21 +13,6 @@ const Performance = () => (
           className="w-full h-auto object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-tr from-background/70 via-transparent to-primary/20" />
-      </div>
-
-      <div>
-        <p className="text-sm font-medium text-primary uppercase tracking-wider mb-3" />
-        <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight" />
-        <p className="mt-5 text-lg text-muted-foreground" />
-
-        <div className="mt-10 grid grid-cols-2 gap-6">
-          {stats.map((s, i) => (
-            <div key={i} className="rounded-xl border border-border bg-card-gradient p-6">
-              <div className="font-display text-4xl md:text-5xl font-bold text-gradient-primary">{s.v}</div>
-              <p className="mt-2 text-sm text-muted-foreground">{s.l}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   </section>
