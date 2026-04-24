@@ -23,13 +23,9 @@ const Performance = () => (
       </div>
 
       <div>
-        <p className="text-sm font-medium text-primary uppercase tracking-wider mb-3">{"\n"}</p>
-        <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight">
-          {"\n"}
-        </h2>
-        <p className="mt-5 text-lg text-muted-foreground">
-          {"\n"}
-        </p>
+        <p className="text-sm font-medium text-primary uppercase tracking-wider mb-3" />
+        <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight" />
+        <p className="mt-5 text-lg text-muted-foreground" />
 
         <div className="mt-10 grid grid-cols-2 gap-6">
           {stats.map((s, i) => (
