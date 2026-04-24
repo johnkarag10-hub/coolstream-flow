@@ -6,7 +6,7 @@ const Performance = () => (
       <div className="relative rounded-2xl overflow-hidden border border-border shadow-elegant">
         <img
           src={datacenter}
-          alt="Modern immersion-cooled data center"
+          alt="Server motherboard submerged in clear dielectric immersion cooling fluid"
           width={1600}
           height={1000}
           loading="lazy"
